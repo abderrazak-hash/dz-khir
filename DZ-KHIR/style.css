@@ -1,0 +1,229 @@
+﻿* {
+    margin: 0px;
+    font-family: "Trebuchet MS";
+} 
+header {
+    background: linear-gradient(grey, white);
+    border-top: solid 7px transparent;
+    border-image: linear-gradient(90deg,darkorange, purple);
+    border-image-slice: 395;
+    border-bottom: 0;
+    height: 110px;
+    font-weight: 900;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+#logo {
+    margin: 50px auto 5px 5%;
+    display: inline;
+    padding: 10px;
+    width: 110px;
+}
+nav {
+    float: right;
+    margin: 20px 5% 5px auto;
+    padding: 15px;
+    display: inline;
+    font-size: 20px;
+}
+nav ul {
+    display: inline;
+}
+nav ul li, #portfolio ul li {
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    cursor: pointer
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 900;
+    padding: 2px;
+    color: #001212
+}
+nav ul li a:hover, #portfolio ul li:hover {
+    border-bottom: solid 7px transparent;
+    border-image: linear-gradient(90deg,darkorange, purple);
+    border-image-slice: 17;
+    border-top: 0;
+    font-weight: 900;
+    color: #001212
+}
+nav ul li a:active, #portfolio ul li:active {
+    border-bottom: solid 7px transparent;
+    border-image: linear-gradient(-90deg,darkorange, purple);
+    border-image-slice: 17;
+    border-top: 0;
+    font-weight: 900;
+    color: #001212;
+}
+#logy {
+    padding-left: 4%;
+    width: 120px;
+}
+#nav {
+    text-align: right;
+    padding-right: 0%;
+    width: 100%;
+}
+article {
+    text-align: center;
+}
+#home, #about, #features, #gallery, #social {
+    padding-top: 100px;
+    margin-top: 70px;
+}
+h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    min-height: 70px;
+}
+.descr {
+    font-size: 27px
+}
+#gallery img {
+    margin: 30px;
+}
+#read, #follow{
+    margin-top: 65px;
+    height: 65px;
+    width: 180px;
+    background: white;
+    border: solid 4px transparent;
+    border-image: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 1;
+    font-size: 20px
+}
+#read:active {
+    border: solid 4px transparent;
+    border-image: linear-gradient(to top left, darkorange, purple);
+    border-image-slice: 1;
+}
+#about p {
+    font-size: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+hr {
+    top: -40px;
+    text-align: center;
+    width: 190px;
+    border-bottom: solid 7px transparent;
+    border-image: linear-gradient(90deg,darkorange, purple);
+    border-image-slice: 17;
+    border-top: 0;
+    margin: 0px auto 22px;
+}
+#web, #blog, #mark, #ad {
+    display: inline-block;
+    width: 380px;
+    height: 210px;
+    border: solid 4px transparent;
+    border-image: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 1;
+}
+#web, #mark {
+    margin: 40px 60px 10px auto;
+}
+#blog, #ad {
+    margin: 40px auto 10px 60px;
+}
+#features {
+    background: #EEE;
+}
+#features .qrst {
+    display: inline-block;
+    margin: 60px 20px;
+    width: 200px;
+    height: 200px;
+    border: solid 3px transparent;
+    border-image: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 1;
+}
+#features div h1 {
+    font-size: 120px;
+    margin-top: -20px
+}
+#features div p {
+    font-size: 20px;
+}
+.see {
+    background: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    border: solid 4px transparent;
+    border-image: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 1;
+}
+
+#follow:before {
+    content: "SUIVEZ NOUS";
+    margin-top: 20px;
+    content: "SUIVEZ DZ-KHİR."
+}
+#follow:hover {
+    width: 200px;
+    border-radius: 30px;
+    border: 0px;
+    background: linear-gradient(90deg, darkorange, purple);
+    content: none
+}
+footer {
+    text-align: center
+}
+#subscribe, #hire, #contact {
+    display: inline-block;
+    width: 400px;
+    height: 205px
+}
+footer h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p {
+    line-height: 30px;
+}
+footer hr {
+    width: 40px;
+}
+footer #subscribe input[type="email"]{
+    height: 40px;
+    width: 200px;
+    background-color: #ddd;
+}
+footer #subscribe input[type="email"]::placeholder {
+    font-size: 20px;
+}
+footer #subscribe input[type="submit"] {
+    height: 46px;
+    width: 120px;
+    margin-left: -6px;
+    border: solid 3px transparent;
+    border-image: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 1;
+}
+#hire hr {
+    margin-bottom: 0px
+}
+#hire button{
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    border: solid 4px transparent;
+    border-image: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 1;
+}
+#footin {
+    display: block;
+    margin: 0px 30px 40px;
+    position: relative
+}
+#footin #copy {
+    float: left;
+}
+#footin #support {
+    float: right;
+}
